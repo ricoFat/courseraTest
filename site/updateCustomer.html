@@ -14,12 +14,15 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </head>
     <body>
-         <header>
+        <header>
             <?php
             require("menu.php");
             ?>
         </header>
         <div>
+            <br>
+            <h4 style="margin-left: 115px;"> Mon Profil</h4>
+            <hr>
             <form class="form-horizontal" name="inscription" role="form" >
 
                 <div class="form-group">
@@ -49,11 +52,11 @@
                         <input type="text" class="form-control" id="adress"  name="adress">  
                     </div>
                 </div>
-                 <div class="form-group">
+                <div class="form-group">
                     <label class="control-label col-sm-2" for="pwd">Ville</label>
                     <div class="col-sm-5"> 
                         <input type="text" class="form-control" id="town"  name="town">  
-                </div>
+                    </div>
                 </div>
 
                 <div class="form-group">
@@ -84,7 +87,7 @@
                     </div>
                 </div>
 
-                 <div class="form-group">
+                <div class="form-group">
                     <label class="control-label col-sm-2" for="pwd">Mot de passe</label>
                     <div class="col-sm-5"> 
                         <input type="text" class="form-control" id="pswd"  name="mot de passe">  
@@ -97,14 +100,14 @@
                         <button type="reset" class="btn btn-default">Changer</button>
                     </div>
                 </div>
+                <hr>
+            </form>
 
-           </form>
-
-        <footer>
-            <?php
-            require "footer.php";
-            ?>     
-        </footer>
+            <footer>
+                <?php
+                require "footer.php";
+                ?>     
+            </footer>
 
         </div>
 
