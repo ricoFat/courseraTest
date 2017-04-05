@@ -6,7 +6,7 @@ body{
 }
 
 #header-nav {
-	background-color: blue ;
+	background-color: white ;
 	border-radius:0;
 	border: 0;
 }
@@ -16,8 +16,8 @@ h1{
 }
 
 #logo-img{
-	background: url(creeKarate.jpg) no-repeat;
-	width: 150px;
+	background: url('../photo/Cree-Logo-1.gif') no-repeat;
+	width: 143px;
 	height: 150px;	
 	margin: 10px 15px 10px 0;
 }
@@ -60,6 +60,10 @@ h1{
 #phone{
 	color: red;
 }
+ 
+ #phone a{
+ 	color: black;
+ }
 
 #nav-list a span{
 	font-size: 1.2em;
@@ -72,23 +76,32 @@ h1{
 	font-size: 1.1em;
 
 }
+
 #menu li{
-    display:inline-block;
-	padding-top:  5px;
-	margin-left: 100px;
+    /*display:inline-block;*/
+	padding-top:  10px;
+	margin-left: 150px;
 	text-align: center;
 	font-size:18px;
 	height: 35px;	
-
 } 
+
 #menu{
 	background-color: black ;
 	height: 70px;
 	padding-top: 0px;	
-
 }
+
 #centre{
 	width: 1350px;
 	height:750px;
+}
 
+.navbar-header button.navbar-toggle, .navbar-header .iconbar{
+	border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: 
 }
