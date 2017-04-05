@@ -7,8 +7,9 @@
 			<title>Cree Karate Association</title>
         	<link rel="stylesheet" href="css/bootstrap.min.css">
         	<link rel="stylesheet" type="text/css" href="css/style.css">  
-        	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">                         
-        	<script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>  
+        	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"> 
+        	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+        	<link href="https://fonts.googleapis.com/css?family=Cantata+One" rel="stylesheet">                        <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>  
         	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         	<script src="js/script.js"></script>
 	</head>
@@ -17,10 +18,11 @@
 	<header>
 		<nav id ="header-nav" class = "navbar navbar-default">
 			<div class ="container"> 
-				<div class="navbar-header">
-						<div id="logo-img" alt="Logo image"></div>					<a href="index.html" class="pull-left visible-md visible-lg">
-
+				<div class="navbar-header">						
+					<a href="index.html" class="pull-left visible-md visible-lg">
+						<div id="logo-img" alt="Logo image"></div>
 					</a>
+		
 					<div class="navbar-brand">
 						<a href="index.html"><h1>Cree Karate Association</h1></a>
 						<p>
@@ -36,12 +38,16 @@
 				</div>
 				<div id="collapsable-nav" class="collapsable navbar-collapse">
 					<ul id="nav-list" class="nav navbar-nav navbar-right">
-						<li id="phone" class="glyphicon glyphicon-earphone"> Appelez-nous
+						<li >
+							<a href="#" class="hidden-xs">
+								<span class="glyphicon glyphicon-map-marker"></span>
+								<br>7929, De Madère <br> Saint Léonard 
+							</a>
+						</li>
+						<li id="phone" class="glyphicon glyphicon-earphone hidden-xs"> Appelez-nous
 							<a href="tel:514-699-1421">  <span>514-699-1421</span></a>		
 						</li>
-						<li >
-						<span id="adress" class="glyphicon glyphicon-map-marker"></span><br>7929, De Madère <br> Saint Léonard 
-						</li>
+						
 					</ul>					
 				</div>
 			</div>
@@ -57,14 +63,30 @@
 		</nav>
 		
 	</header>
-	<div id="centre">
-		<iframe width="1350" height="515" src="https://www.youtube.com/embed/tr_prbLFOeU" frameborder="0" allowfullscreen></iframe>						
+	<div id="centre" >
+		<iframe width="1040" height="415" src="https://www.youtube.com/embed/tr_prbLFOeU" frameborder="0" allowfullscreen ></iframe>	
+		<div  id="home-tiles" class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="index.html">
+					<div id="philo-tile"><span>Philosophy</span></div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="index.html">
+					<div id="tech-tile"><span>Techniques</span></div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<a href="https://www.google.ca/maps/place/1084+Place+de+la+Colombi%C3%A8re,+Montr%C3%A9al,+QC+H2M+2J1/@45.5566964,-73.6475176,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc918cf64a2039d:0x4f6732a9d59eee43!8m2!3d45.5566964!4d-73.6453289	" target="blank">
+					<div id="map-tile">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.683285941143!2d-73.64751758476048!3d45.55669637910209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc918cf64a2039d%3A0x4f6732a9d59eee43!2s1084+Place+de+la+Colombi%C3%A8re%2C+Montr%C3%A9al%2C+QC+H2M+2J1!5e0!3m2!1sfr!2sca!4v1491374511961" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<span>map</span>
+					</div>
+				</a>
+			</div>
+		</div>					
 	</div>
-	<div>
-		<div></div>
-		<div></div>
-		<div></div>	
-	</div>
+	
 	<footer>
 		<hr>
 			<p style="text-align: center; ">
