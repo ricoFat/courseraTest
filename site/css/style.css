@@ -11,12 +11,12 @@ body{
 	border: 0;
 }
 
-#logo-img{
+/*#logo-img{
 	background: url('../photo/Cree-Logo-1.gif') no-repeat;
 	width: 143px;
 	height: 150px;	
 	margin: 10px 15px 10px 0;
-}
+}*/
 
 .navbar-brand{	
 	padding-top: 25px;
@@ -89,7 +89,7 @@ body{
 }
 
 /***** Large devices only ********/
-@media (max-width: 1200px){
+@media (max-width: 1300px){
 	#logo-img{
 	background: url('../photo/Cree-Logo-1.gif') no-repeat;
 	width: 143px;
