@@ -90,6 +90,13 @@ body{
 
 /***** Large devices only ********/
 @media (max-width: 1200px){
+	#logo-img{
+	background: url('../photo/Cree-Logo-1.gif') no-repeat;
+	width: 143px;
+	height: 150px;	
+	margin: 10px 15px 10px 0;
+}
+
 
 }
 
