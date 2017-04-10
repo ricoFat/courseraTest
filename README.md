@@ -1,2 +1,3 @@
 # courseraTest
-For my test 
+Ceci est une maquette pour un web de cree karate association 
+developpe par Fataki 
