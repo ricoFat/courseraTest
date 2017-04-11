@@ -63,24 +63,38 @@ body{
 	/*color: red;*/
 	text-align: center;
 }
+
+#nav-list a:hover{
+	background: #E7E7E7 ;
+}
+
+#nav-list a span{
+	font-size: 1.1em;
+	font-weight: bold;	
+}
+
 #phone{
-	color: #8B0000;
-	margin-top: 20px;
+	color: grey;
+	/*margin-top: 20px;*/
 	text-align: center;	
+}
+
+.glyphicon{
+	color: #8B0000;
 }
  
  #phone a{
- 	color: grey;
- 	text-align: right;
- 	margin-top: 3px;
+ 	color: grey	;
+ 	text-align: center;
+ 	margin-top: 0px;
  	padding-bottom: 0px;
  	font-family: 'Oxygen', sans-serif;
  }
 
-#nav-list a span{
-	font-size: 1.1em;
-	/*font-weight: bold;*/ 	
-}
+ #phone div{
+ 	text-align: right ;
+ 	padding-right: 15px; 
+ }
 
 #adress {
 	text-align: center;
@@ -89,7 +103,7 @@ body{
 }
 
 /***** Large devices only ********/
-@media (max-width: 1200px){
+@media (min-width: 1200px){
 	#logo-img{
 	background: url('../photo/Cree-Logo-1.gif') no-repeat;
 	width: 143px;
