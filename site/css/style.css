@@ -53,6 +53,10 @@ body{
 	background-color: #222;
 	border-top: 0 ;
 }
+
+footer p {
+	font-family: 'Lora' , serif;
+}
 /* END FOOTER*/
 
 #nav-list{
@@ -80,7 +84,7 @@ body{
 }
 
 .glyphicon{
-	color: #8B0000;
+	color: #D21947;
 }
  
  #phone a{
@@ -167,7 +171,7 @@ body{
 	padding-top: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-	box-shadow: 3px 3px 3px grey;
+	box-shadow: 3px 3px 2px grey;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .iconbar{
