@@ -205,6 +205,13 @@ footer p {
  	
 }
 
+#tech-tile{
+	background: url('../photo/creeProgrammes.jpg') no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+
 #philo-tile span , #tech-tile span , #map-tile span {
 	position: absolute;
 	bottom: 0;
@@ -219,5 +226,5 @@ footer p {
 }
 
 #iconSocial a{
-	padding-right: 19px: 
+	i: 19px: 
 }
