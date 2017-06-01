@@ -84,7 +84,6 @@ footer p {
 
 #phone{
 	color: grey;
-	/*margin-top: 20px;*/
 	text-align: center;	
 }
 
@@ -98,11 +97,13 @@ footer p {
  	margin-top: 0px;
  	padding-bottom: 0px;
  	font-family: 'Oxygen', sans-serif;
+
  }
 
  #phone div{
  	text-align: right ;
  	padding-right: 15px; 
+ 	text-decoration: none;
  }
 
  #adresse ,#hours{
@@ -147,6 +148,16 @@ footer p {
 	margin: 5px 5px 5px 0;
 	}
 
+	.navbar-brand p{
+		font-size: 3vw;
+	}
+
+	#tech-tile {
+	background: url('../photo/creeProgrammes.jpg') no-repeat;
+	background-position: center;
+	width:100%;
+	}
+
 }
 
 /***** Extra-Small devices only ********/
@@ -155,21 +166,26 @@ footer p {
 		padding-top: 10px;
 		height: 80px;
 	}
+
 	.navbar-brand h1{
 		padding-top: 10px;
 		font-size: 7vw; /* 1vw= 1% of viewport width */
 	}
+
 	.navbar-brand p{
-		font-size: .6em;
+		font-size: 4vw;
 		margin-top: 12px;
 	}
+
 	.panel-footer section {
 		margin-bottom: 30px;
 		text-align: center;
 	}
+
 	.panel-footer section:nth-child(3){
 		margin-bottom: 0;
 	}
+
 	.panel-footer hr{
 		width: 50%;
 	}
@@ -179,16 +195,22 @@ footer p {
 		margin: 0 auto 15px;
 	}
 
-
 	#tech-tile{
 	background: url('../photo/creeProgrammes.jpg') no-repeat;
 	background-position: center;
 	width:100%;
-}
+	}
 }
 
-#menu li{
-    /*display:inline-block;*/
+
+#menu {
+	background-color: black ;
+	font-family: 'Cantata One', serif;
+	height: 50px;
+	padding-top: 0px;
+}
+
+#menu li {
 	padding-top:  10px;
 	margin-left: 150px;
 	text-align: center;
@@ -196,11 +218,9 @@ footer p {
 	height: 35px;	
 } 
 
-#menu{
-	background-color: black ;
-	font-family: 'Cantata One', serif;
-	height: 70px;
-	padding-top: 0px;	
+#menu a {
+	color: #D21947;	
+	text-decoration: none;
 }
 
 .container .jumbotron{
@@ -254,5 +274,5 @@ footer p {
 }
 
 #iconSocial a{
-	i: 19px;
+	
 }

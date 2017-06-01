@@ -9,7 +9,8 @@
         	<link rel="stylesheet" type="text/css" href="css/style.css">  
         	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"> 
         	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-        	<link href="https://fonts.googleapis.com/css?family=Cantata+One" rel="stylesheet">                       <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>  
+        	<link href="https://fonts.googleapis.com/css?family=Cantata+One" rel="stylesheet">                       
+        	<script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>  
         	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         	<script src="js/script.js"></script>
 	</head>
@@ -28,36 +29,35 @@
 							<span>Martial Arts Programs</span>
 						</p>
 					</div>
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target="#collapsable-nav" aria-expanded="false">
-						<span class="sr-only">Toogle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>		
-					</button>
-				</div>
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target="#collapsable-nav" aria-expanded="true">
+							<span class="sr-only">Toogle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>		
+							</button>
+					</div>
 				<div id="collapsable-nav" class="collapsable navbar-collapse">
 					<ul id="nav-list" class="nav navbar-nav navbar-right">
 						<li >
-							<a href="#" class="hidden-xs">
+							<a href="#" class="hidden-xs hidden-sm">
 								<span class="glyphicon glyphicon-map-marker"></span>
 								<br>7929, De Madère <br>Saint Léonard 
 							</a>
 						</li>
-						<li id="phone" class="hidden-xs">
-							<a href="tel:514-699-1421">  <span class="glyphicon glyphicon-earphone" ></span> <br>514-699-1421</a>
-							<div>Appelez-nous</div>
+						<li id="phone" >
+							<a href="tel:514-699-1421">  <span class="glyphicon glyphicon-earphone" ></span><br>514-699-1421</a>
+							<div class="hidden-xs">Appelez-nous</div>
 						</li>
-						
 					</ul>					
 				</div>
 			</div>
-			<div id="menu">	
+			<div id="menu" class="hidden-xs hidden-md hidden-sm">	
 				<ul class="list-inline">
-					<li><a href="index.html">Acceuil</a></li>	
-					<li><a href="contact.html">Contact</a></li>
-					<li><a href="bottin.html" >Programmes</a></li>
-					<li><a href="connection.html">Liens</a></li>
-					<li><a href="connection.html">Branches</a></li>
+					<li><a href="#">Acceuil</a></li>	
+					<li><a href="#">Contact</a></li>
+					<li><a href="#" >Programmes</a></li>
+					<li><a href="#">Liens</a></li>
+					<li ><a href="#">Branches</a></li>
 				</ul>
 			</div>	
 		</nav>		
@@ -97,7 +97,7 @@
 	<footer class="panel-footer">
 		<div class="container">
 			<div class="row">
-				<section id="hours" class="col-sm-4">
+				<section id="q" class="col-sm-4">
 					<span>Heures:</span><br>
 					Lundi-Vendredi : 18:00 - 22:00<br>
 					Samedi : 8:00 - 14:00<br>
