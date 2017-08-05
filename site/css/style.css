@@ -150,6 +150,11 @@ footer p {
 		font-size: 3vw;
 	}
 
+	#philo-tile, #tech-tile{
+		width: 560px;
+		margin: 0 auto 15px;
+	}
+
 	#tech-tile {
 	background: url('../photo/creeProgrammes.jpg') no-repeat;
 	background-position: center;
@@ -198,6 +203,13 @@ footer p {
 	background-position: center;
 	width:100%;
 	}
+
+	#philo-tile{
+	background: url('../photo/photoPhilosophie-petit.jpg') no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
 }
 
 
@@ -239,8 +251,8 @@ footer p {
     color: #D21947;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+.dropdown:hover .dropdown-content{ 
+     display: block;
 }
 
 .container .jumbotron{
@@ -279,6 +291,12 @@ footer p {
 	width: 100%;
 }
 
+#philo-tile{
+	background: url('../photo/photoPhilosophie.jpg') no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
 
 #philo-tile span , #tech-tile span , #map-tile span {
 	position: absolute;
@@ -288,8 +306,8 @@ footer p {
 	text-align: center;
 	font-size: 1.5em;
 	font-family: 'Lora' , serif;
-	background-color: #000;
-	color: #E7E7E7;
+/*background-color: #000;*/
+	color: #D21947;
 	opacity: .5;
 }
 
