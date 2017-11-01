@@ -186,7 +186,7 @@ footer p {
 	}
 
 	.panel-footer section:nth-child(3){
-		margin-bottom: 0;
+		margin-bottom: 10px;
 	}
 
 	.panel-footer hr{
@@ -306,11 +306,7 @@ footer p {
 	text-align: center;
 	font-size: 1.5em;
 	font-family: 'Lora' , serif;
-/*background-color: #000;*/
+	background-color: #000;
 	color: #D21947;
 	opacity: .5;
-}
-
-#iconSocial a{
-	
 }
