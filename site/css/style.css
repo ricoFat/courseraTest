@@ -248,7 +248,7 @@ footer p {
     padding: 12px 16px;
     z-index: 1;
     background-color: black;
-    color: #D21947;
+    color: c;
 }
 
 .dropdown:hover .dropdown-content{ 
@@ -277,7 +277,7 @@ footer p {
 #philo-tile , #tech-tile , #map-tile {
  	height:250px;
  	width: 100%;
- 	margin-top: 15px;
+ 	margin:  0 auto 15px;
  	position: relative;
  	border: 1px solid black;
  	overflow: hidden;
@@ -298,26 +298,15 @@ footer p {
 	width: 100%;
 }
 
-
 #philo-tile span , #tech-tile span , #map-tile span {
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	width: 100%;
 	text-align: center;
-	font-size: 1.5em;
-	font-family: 'Lora' , serif;
-	background-color: #000;
-	color: #D21947;
+	font-size: 1.7em;
+	font-family:'Lora' , serif;
+	/*background-color: #000;*/
+	color: #D21947 ;
 	opacity: .5;
 } 
-
-
-/*gregniversité du Québec à Montréal (63-978001)	X	X		
-SCIENCES PURES (20000)	X	X		
-778323899      V9R6C5   900 four street  002725046  4519031797739811
-Nathanael Beaudoin
-778635862  03/24/87  m5v3v5  ep614702  4387287740 naty.beaudouim@hotmail.com montreal2018
-631 Rue Bourassa, Montréal, QC H4C 3N7  ///
-
-03-04-09-10-11-13-14-17-18-20-22-23  1Z030E42DK14782010*/
