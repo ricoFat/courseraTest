@@ -306,7 +306,14 @@ footer p {
 	text-align: center;
 	font-size: 1.7em;
 	font-family:'Lora' , serif;
-	/*background-color: #000;*/
+	/*background-color: #000;*/	
 	color: #D21947 ;
 	opacity: .5;
 } 
+
+/* Philosphie page*/
+#philosophie-cat ,  #programmes-cat  {
+	color: #D21947 ;
+	font-family: 'Lora' , serif;
+	font-size: 3.7em;
+}
