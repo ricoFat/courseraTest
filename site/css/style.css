@@ -79,7 +79,7 @@ footer p {
 
 #nav-list a span{
 	font-size: 1.1em;
-	font-weight: bold;	
+	/*font-weight: bold;*/	
 }
 
 #phone{
@@ -131,8 +131,8 @@ footer p {
 @media (min-width: 992px) and (max-width: 1199px){
 	#logo-img{
 	background: url('../photo/creeKarate.jpg') no-repeat;
-	/*width: 100px;
-	height: 100px;*/	
+	width: 100px;
+	height: 100px;	
 	margin: 5px 10px 5px 0 ;
 	}
 }
@@ -295,7 +295,7 @@ footer p {
 }
 
 #philo-tile{
-	background: url('../photo/photoPhilosophie.JPG ') no-repeat;
+	background: url('../photo/photoPhilosophie.JPG') no-repeat;
 	background-position: center;
 	width: 100%;
 }
