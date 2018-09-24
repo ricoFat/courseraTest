@@ -12,9 +12,9 @@ body {
 }
 #logo{
 	background: url('../photos/logo.jpg') no-repeat;
-	width: 140px;
-	height: 143px;	
-	margin: 10px 15px 10px 0;
+	width: 130px;
+	height: 140px;	
+	margin: 5px 10px 5px 0;
 }
 
 .navbar-brand {
@@ -36,5 +36,32 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
 }
+.navbar-brand p{
+	color: #000;
+	font-family: 'Lora' , serif;
+	text-shadow: 2px 2px 2px #222;		
+	font-size: 1.1em;
+	margin-top: 4px;
+	margin-left: 15px;
+}
 
+#phone{
+	color: grey;
+	text-align: center;	
+}
+
+.glyphicon{
+	color: #D21947;
+}
+
+#phone a{
+ 	color: grey	;
+ 	text-align: center;
+ 	margin-top: 0px;
+ 	padding-bottom: 0px;
+ 	font-family: 'Oxygen', sans-serif;
+ }										
+.item {
+	background: url('../photos/logo.jpg') no-repeat;
+}
 
